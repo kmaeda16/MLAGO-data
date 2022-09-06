@@ -1,0 +1,8 @@
+----- This script (CVODE(SundialsTB)) vs Original Maeda model -----
+WT        : RMSE = 5.689002e-06
+deltaGDH  : RMSE = 6.027448e-06
+deltaGOGAT: RMSE = 5.013592e-06
+Making quasi-experimental data ...
+----- This script (CVODE(SundialsTB)) vs Quasi-experimental data -----
+RMSE = 0.000000e+00
+Making figures ...

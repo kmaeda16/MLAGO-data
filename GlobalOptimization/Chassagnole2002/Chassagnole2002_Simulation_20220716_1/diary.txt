@@ -1,0 +1,30 @@
+Making an ODE file (IQM Tools format) ...
+BIOMD0000000051_url_odefun.m created.
+Making a MEX model ...
+'Xcode with Clang' でビルドしています。
+In file included from /Users/maeda/Desktop/Chassagnole2002_Simulation/BIOMD0000000051_url_mex.c:6:
+/Users/maeda/Documents/MATLAB/3rdPartyTools/RCGAToolbox-master/3rdparty/IQMtools V1.2.2.2/IQMpro/tools/01-MEXmodels/CVODEMEX/include/mexsplineaddon.h:1273:26: warning: using integer absolute value function 'abs' when argument is of floating point type [-Wabsolute-value]
+    if ( fabs ( dmax ) < abs ( d[n-1] ) )
+                         ^
+/Users/maeda/Documents/MATLAB/3rdPartyTools/RCGAToolbox-master/3rdparty/IQMtools V1.2.2.2/IQMpro/tools/01-MEXmodels/CVODEMEX/include/mexsplineaddon.h:1273:26: note: use function 'fabs' instead
+    if ( fabs ( dmax ) < abs ( d[n-1] ) )
+                         ^~~
+                         fabs
+1 warning generated.
+
+MEX は正常に完了しました。
+BIOMD0000000051_url_mex.c created.
+BIOMD0000000051_url_mex.h created.
+BIOMD0000000051_url_mex.mexmaci64 created.
+Simulating ...
+----- ODE15s(MATLABbuilt-in) vs CVODE(IQMTools) -----
+RMSE = 4.024602e-05
+
+Making quasi-experimental data ...
+----- ODE15s(MATLABbuilt-in) vs Quasi-experimental data -----
+RMSE = 4.024602e-05
+
+----- CVODE(IQMTools) vs Quasi-experimental data -----
+RMSE = 0.000000e+00
+
+Making figures ...
